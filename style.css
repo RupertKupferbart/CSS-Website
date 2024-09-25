@@ -15,7 +15,7 @@ flex-direction: column;
   align-items: center;
 }
 
-/* Header Rules */
+/* Header rules */
 
 .header-logo {
   color:#F9FAF8;
@@ -35,4 +35,46 @@ a {
   text-decoration: none;
   list-style-type: none;
   color: #F9FAF8;
+}
+
+/* Section 1 rules */
+
+.section1 {
+  background-color:#1F2937;
+  padding: 100px;
+  display: flex;
+  gap:20px;
+}
+
+.container-left {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section1-hero{
+  color:#F9FAF8;
+  font-weight: 900;
+  font-size: 48px;
+  
+}
+
+.button1 {
+  background-color: #3882F6;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  margin-top: 1em;
+  width: fit-content;
+  padding: 1em 2em;
+}
+
+.container-right {
+  display: flex;
+}
+
+img {
+width: 400px;
+height: auto;
 }
