@@ -197,3 +197,11 @@ max-width: 150px;
   align-items:center;
   padding: 1em 2em;
 }
+
+/* Footer rules */
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
