@@ -44,6 +44,7 @@ a {
   padding: 100px;
   display: flex;
   gap:20px;
+  justify-content: center;
 }
 
 .container-left {
@@ -77,4 +78,55 @@ a {
 img {
 width: 400px;
 height: auto;
+}
+
+/* Section 2 rules */
+
+.section2{
+  margin:20px;
+  align-content:center;
+}
+
+.headline {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 36px;
+  margin:20px;
+}
+
+.body {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  flex-grow: 0;
+}
+
+.item {
+display: flex;
+justify-content: center;
+align-items: center;
+min-width: 150px;
+min-height:150px;
+max-width: 150px;
+max-height: 150px;
+border-style: solid;
+border-radius: 15px;
+border-color: #3882f6;
+background: white;
+}
+
+.text {
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+margin-top: 10px;
+min-width: 150px;
+max-width: 150px;
 }
